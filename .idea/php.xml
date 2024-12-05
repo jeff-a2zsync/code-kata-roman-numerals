@@ -10,15 +10,10 @@
     <option name="highlightLevel" value="WARNING" />
     <option name="transferred" value="true" />
   </component>
-  <component name="PhpIncludePathManager">
-    <include_path>
-      <path value="$PROJECT_DIR$/vendor/composer" />
-    </include_path>
-  </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter id="131ee744-0583-45bf-bc93-414b7c045aa4" name="composer" home="docker-compose://DATA" auto="false" debugger_id="php.debugger.XDebug">
-        <remote_data INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" DOCKER_ACCOUNT_NAME="Docker" DOCKER_COMPOSE_SERVICE_NAME="composer" DOCKER_REMOTE_PROJECT_PATH="/opt/project">
+      <interpreter id="131ee744-0583-45bf-bc93-414b7c045aa4" name="Docker PHP" home="docker-compose://DATA" auto="false" debugger_id="php.debugger.XDebug">
+        <remote_data INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" DOCKER_ACCOUNT_NAME="Docker" DOCKER_COMPOSE_SERVICE_NAME="php" DOCKER_REMOTE_PROJECT_PATH="/opt/project">
           <type_data command="RUN" />
           <dockerComposeConfigurationPaths>
             <item value="$PROJECT_DIR$/docker-compose.yml" />
@@ -30,7 +25,7 @@
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
-      <interpreter name="composer">
+      <interpreter name="Docker PHP">
         <phpinfo binary_type="PHP" php_cgi="/usr/local/bin/php-cgi" php_cli="/usr/local/bin/php" path_separator=":" version="8.4.1">
           <additional_php_ini>/usr/local/etc/php/conf.d/docker-php-ext-bz2.ini, /usr/local/etc/php/conf.d/docker-php-ext-sodium.ini, /usr/local/etc/php/conf.d/docker-php-ext-zip.ini</additional_php_ini>
           <configuration_file>/usr/local/etc/php/php-cli.ini</configuration_file>
@@ -82,6 +77,12 @@
   <component name="PhpProjectSharedConfiguration" php_language_level="8.3" />
   <component name="PhpStanOptionsConfiguration">
     <option name="transferred" value="true" />
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <phpunit_by_interpreter interpreter_id="131ee744-0583-45bf-bc93-414b7c045aa4" custom_loader_path="/app/vendor/autoload.php" phpunit_phar_path="" />
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/vendor/autoload.php" />
+    </phpunit_settings>
   </component>
   <component name="PsalmOptionsConfiguration">
     <option name="transferred" value="true" />
