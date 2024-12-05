@@ -1,7 +1,5 @@
 services:
   php:
     build: ./docker
-    environment:
-      - XDEBUG_MODE=debug
     volumes:
       - .:/app
