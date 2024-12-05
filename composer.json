@@ -1,0 +1,14 @@
+{
+  "name": "vendor_name/code-kata-roman-numerals",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "jefferyahern",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  }
+}
